@@ -295,6 +295,7 @@ h4 {
 .section-6 {
     height: 640px;
     background-image: url(../img/img-6.png);
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
