@@ -37,6 +37,10 @@ a {
     justify-content: center; */
 }
 
+.header-button {
+    display: none;
+}
+
 .big-container {
     width: 1300px;
     margin: 0 auto;
@@ -482,5 +486,18 @@ h1 {
 @media(max-width: 600px) {
     header .nav {
         display: none;
+    }
+    .header-button {
+        font-size: 24px;
+        line-height: 4px;
+        padding: 6px;
+        margin: 11px;
+        float: right;
+        display: block;
+        width: 40px;
+        border: none;
+        background-color: rgb(12, 102, 175);
+        color: white;
+        border-radius: 2px;
     }
 }
