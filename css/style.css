@@ -455,6 +455,18 @@ h1 {
     .container {
         flex-direction: column;
     }
+    .img-box-4{
+        display: none;
+    }
+    .s5 .tel-img{
+        display: none;
+    }
+    .s3-list li{
+        width: 90%;
+    }
+    p{
+        text-align: justify;
+    }
     h2 {
         text-align: center !important;
         font-size: 50px;
