@@ -423,22 +423,31 @@ h1 {
     }
 }
 
-@media(max-width:1070) {
+@media(max-width:1170px) {
     form {
-        height: 300px;
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
     form .get-started {
-        margin-top: 20px !important;
+        margin-top: 15px !important;
+    }
+    input {
+        display: block;
+        border: none;
+        text-align: center;
     }
     label {
-        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: inherit;
+        border: 1px solid #c3c2ca;
+        padding-left: 10px;
     }
 }
 
