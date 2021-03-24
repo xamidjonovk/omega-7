@@ -267,16 +267,22 @@ h4 {
 
 .s4 {
     /* width: 1000px; */
-    height: 540px;
+    /* height: 540px;
     background-image: url(../img/img-4.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    display: flex;
 }
 
 .content-4 {
-    position: relative;
+    /* position: relative;
     top: 100px;
-    right: -550px;
+    left: 500px; */
     width: 50%;
+    padding-right: 20px;
+}
+
+.img-box-4 {
+    width: 40%;
 }
 
 .grey-p {
@@ -416,5 +422,11 @@ h1 {
         top: 100px;
         right: -50%;
         width: 50%;
+    }
+}
+
+@media(max-width: 960px) {
+    .container {
+        flex-direction: column;
     }
 }
